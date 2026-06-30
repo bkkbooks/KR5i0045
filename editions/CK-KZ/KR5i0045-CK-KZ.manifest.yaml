@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0045/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5i0045/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 呂祖本傳
+  date: '2015-08-29 17:52:41.875600'
+  source:
+    repository: kanripo
+    path: KR5i0045
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0045_001-CK-KZ.yaml, hash: 'sha256:38f4b46732ef3cd4a599761e0e98f613fd918606da8750250101af1b3492d66c'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0045_001-CK-KZ.markers.yaml, hash: 'sha256:b313ceee8bb769101f654650b0b5ac18d7468a83ee4cbede09e9081ed3d5fce4'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0045_01p001a
+    span:
+    - body
+    - 0
+    - 6958
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:9ad9f19f5e252b13bddef92dbaeeb7e274c7e62771a648d0ae0fe0d66251d409

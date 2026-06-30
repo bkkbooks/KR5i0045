@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR5i0045/v1
+canonical_location: https://kanripo.org/bkk/KR5i0045/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 呂祖本傳
+  identifiers:
+    alt_id:
+    - JY160
+  date: '2015-08-29 17:52:41.875600'
+  source:
+    repository: kanripo
+    path: KR5i0045
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  base_edition: CK-KZ
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: CK-KZ
+  label: 【重刊道藏輯要】
+- short: CK-KZ-jye
+- short: KR5i0045
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0045_001.yaml, hash: 'sha256:885b3e53117f8860a23c00dad6ff62f5d49deea93ccf040538bc279ccac56455'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0045_001.markers.yaml, hash: 'sha256:8515341a0aefcd350e5d172eef5095cbef5bd1ed8b7e41fffb0ed185378cfe23'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0045_01p001a
+    span:
+    - body
+    - 0
+    - 6958
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:e4cc804e94d3fe8567cbf407740fd0439807b8b03e35a1612fbde4b8ff5b2712
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
